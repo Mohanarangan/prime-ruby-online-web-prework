@@ -1,8 +1,8 @@
 # Add  code here!
 
-  def prime?(integer)
- (2..integer - 1).each do |x|
-  if (integer % x) == 0
+  def prime?(number)
+ (2..number - 1).each do |x|
+  if (number % x) == 0
    return false
   else
    return true
