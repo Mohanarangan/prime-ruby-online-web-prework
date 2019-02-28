@@ -1,7 +1,7 @@
 # Add  code here!
 
-  def prime?(integer)
-  (2..integer - 1).each {|x| return false if (integer % x) == 0 }
+  def prime?(num)
+  (2..num - 1).each {|x| return false if (num % x) == 0 }
   true
 end
 end
